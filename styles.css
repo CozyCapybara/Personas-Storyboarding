@@ -1,0 +1,48 @@
+#Personas-and-Storyboarding {
+    background-color:lightgrey;
+  }
+  
+  /* Uncomment below if images are way too big.
+  Selects all image tags and makes them 500px;
+   */
+
+  img {
+    width: 500px;
+    height: auto;
+  }
+
+  img.part1-item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+  }
+ 
+  .part1-container {
+   
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  
+
+  .part3-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+
+  .part4-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+
+  
